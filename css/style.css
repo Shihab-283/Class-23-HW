@@ -1,0 +1,79 @@
+#back-to-top{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border: none;
+    border-radius: 50%;
+    font-size: 30px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    cursor: pointer;
+    display: none;
+    color: #fff;
+}
+/* .benner{
+    height: 500px;
+}
+.benner-slider{
+    height: 500px;
+} */
+#benner .benner-slider-item{
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+}
+#benner .benner-slider-arrow{
+    width: 60px;
+    height: 60px;
+    border: 1px solid red;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    top: calc(50% - 30px);
+    /* transform: translateY(-50%); */
+    z-index: 99;
+
+}
+.benner-slider-arrow:hover{
+    background-color: red;
+    border: none;
+}
+
+#benner .benner-slider .fa-chevron-left{
+    left: 0;
+}
+#benner .benner-slider .fa-chevron-right{
+    right: 0;
+}
+#benner .benner-slider .benner-slider-dots{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+#benner .benner-slider .benner-slider-dots li{
+    margin: 0 10px;
+}
+
+#benner .benner-slider .benner-slider-dots li button{
+    font-size: 0;
+    background: none;
+    border: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid orange;
+    cursor: pointer;
+    transition: .5s;
+}
+#benner .benner-slider .benner-slider-dots li.slick-active button{
+    background-color: red;
+    transform: rotate(45deg);
+}
+
+
